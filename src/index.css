@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-legal {
+  font-family: 'EB Garamond', Georgia, Cambria, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-mono-code {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Authentic manila folder tab styling */
+.manila-folder {
+  background-color: #f7ecd5;
+  background-image: radial-gradient(#e8dac0 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.parchment-paper {
+  background-color: #fbf8ee;
+  box-shadow: 0 4px 20px -2px rgba(44, 30, 14, 0.08), 0 2px 6px -1px rgba(44, 30, 14, 0.05);
+}
+
+/* Rubber Stamp Effect */
+.stamp-seal {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 6px;
+  mask-image: radial-gradient(circle at center, black 65%, transparent 100%);
+  transform: rotate(-7deg);
+}
+
+/* Gavel Strike Shockwave */
+@keyframes shockwave {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-shockwave {
+  animation: shockwave 0.5s ease-out forwards;
+}

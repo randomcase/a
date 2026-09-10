@@ -1,0 +1,6 @@
+{
+  "name": "The Supreme Gavel: Court & Style Manual Simulator",
+  "description": "An idle judicial gavel clicker and court opinion writing style manual folder simulator spanning District Court, Appellate Court, and the Supreme Court.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
